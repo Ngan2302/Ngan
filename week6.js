@@ -1,5 +1,4 @@
-/*
-    Paste the codfunction setup() {
+function setup() {
   createCanvas(300, 300);
 }
 
@@ -26,4 +25,4 @@ function keyPressed(){
     else if (key == 'u') {
       background("blue");
     }  e for your week 3 exercise below.
-*/
+
