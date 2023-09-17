@@ -27,7 +27,7 @@ triangle(110, 150, 250, 100, 280, 150);
 fill("black");
   textFont("Courier");
   textSize(50);
-  text('Home', 130, 340);
+  text('Home', 130, 340);}
 
 
 
