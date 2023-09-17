@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(300, 300);
+  createCanvas(500, 500);
+background("white");
 }
 
 function draw() {
@@ -7,10 +8,10 @@ function draw() {
       fill(0, 255, 255);
     circle(mouseX, mouseY, 25);
   }}
-function mouseWheel() {
-  background(0, 255, 0);}
+
 function mouseClicked(){
-  background(32);
+  fill(0, 255, 0);
+  circle(mouseX, mouseY, 80);
 }
 function keyPressed(){
  if (key == 'r') {
@@ -24,5 +25,7 @@ function keyPressed(){
     }  
     else if (key == 'u') {
       background("blue");
-    }  e for your week 3 exercise below.
-
+    } 
+else if (key == 'o') {
+      background("orange");
+}}
